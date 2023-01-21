@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2017 Scott Shawcroft, written for Adafruit Industries
+# SPDX-FileCopyrightText: Copyright (c) 2023 Mikko Pitkänen
+#
+# SPDX-License-Identifier: MIT
+
+Adafruit-Blinka
+adafruit_framebuf
+board
+busio
+digitalio
+time

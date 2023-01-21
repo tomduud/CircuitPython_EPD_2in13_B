@@ -22,8 +22,8 @@ Make sure you have also this library on your 'lib' directory:
 
 # Usage Example
 
-This uses adafruit_framebuf framebuffer library. Please see more information about 'adafruit_framebuf' library drawing methods : 
-https://github.com/adafruit/Adafruit_CircuitPython_framebuf 
+This uses adafruit_framebuf framebuffer library. Please see more information about 'adafruit_framebuf' library drawing methods: 
+https://docs.circuitpython.org/projects/framebuf/en/latest/ and https://github.com/adafruit/Adafruit_CircuitPython_framebuf 
 
 ```python
 
@@ -32,7 +32,7 @@ from epd_2in13_b import EPD_2in13_B
 
 try:
     #initialise class with rotation:  rotation = 0 portrait, 1= landscape, 2 portrait upside down, 3= landscape upside down
-    epd = EPD_2in13_B(2)
+    epd = EPD_2in13_B(1)
     #clear class
     epd.Clear(0x00, 0x00)
     # Clear black framebuffer
@@ -43,6 +43,8 @@ try:
     epd.framebuffer_black.text('Black text in 0,0 position.', 0, 0, 0xff)
     # Write text red framebuffer
     epd.framebuffer_red.text('Red text', 20, 20, 0xff)
+    # Draw red circle on coordinate 50,50 with 20 radius
+    epd.framebuffer_red.circle(45, 50, 20, 0xff)
     # Draw everything to display, this will take around 15 sec per layer
     epd.display()
     # put the display on the sleep mode

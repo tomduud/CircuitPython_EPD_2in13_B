@@ -31,7 +31,8 @@ https://docs.circuitpython.org/projects/framebuf/en/latest/ and https://github.c
 from epd_2in13_b import EPD_2in13_B
 
 try:
-    #initialise class with rotation:  rotation = 0 portrait, 1= landscape, 2 portrait upside down, 3= landscape upside down
+    #initialise class with rotation:  rotation = 0 portrait, 1= landscape, 
+    # 2 portrait upside down, 3= landscape upside down
     epd = EPD_2in13_B(1)
     #clear class
     epd.Clear(0x00, 0x00)
@@ -52,13 +53,39 @@ try:
 
 except KeyboardInterrupt:
     print ("exception")
-
-
 ```
 
+Another example with rotated red frame buffer layer
+```python
+from epd_2in13_b import EPD_2in13_B
 
+try:
+    #initialise class with rotation:  rotation = 0 portrait, 1= landscape, 
+    # 2 portrait upside down, 3= landscape upside down
+    epd = EPD_2in13_B(1)
+    #clear class
+    epd.Clear(0x00, 0x00)
+    # Clear black framebuffer
+    epd.framebuffer_black.fill(0x00)
+    # Clear red framebuffer
+    epd.framebuffer_red.fill(0x00)
+    # Write text to black framebuffer
+    epd.framebuffer_black.text('Black text in 0,0 position.', 0, 0, 0xff)
+    # Write text red framebuffer
 
+    # Change red framebuffer rotation to upside down
+    epd.framebuffer_red.rotation = 3
+    # draw text now upside down..
+    epd.framebuffer_red.text('red text in 0,0 position.', 0, 8, 0xff)
 
+    # Draw everything to display, this will take around 15 sec per layer
+    epd.display()
+    # put the display on the sleep mode
+    epd.sleep();
+
+except KeyboardInterrupt:
+    print ("exception")
+```
 
 
 

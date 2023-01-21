@@ -1,9 +1,9 @@
-* Introduction
+# Introduction
 
 Circuitpython library to use Waveshare 2.13 inch ePaper display with Raspberry Pico W
 
 
-Dependencies
+# Dependencies
 =============
 This driver depends on:
 
@@ -33,9 +33,17 @@ Or the following command to update an existing version:
 
     circup update
 
-Usage Example
-=============
-.. code-block:: 
+# Usage Example
+
+```python
+
+
+s = "Python syntax highlighting"
+print s
+
+
+
+```
 
 
 

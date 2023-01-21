@@ -1,5 +1,5 @@
 # Introduction
-This is a simple Circuitpython library to use Waveshare 2.13 inch ePaper display with Raspberry Pico W. This uses adafruit_framebuf framebuffer library so you can use any of its drawing methods. 
+This is a simple Circuitpython library to use Waveshare 2.13 inch ePaper display with Raspberry Pico W. This uses `adafruit_framebuf` framebuffer library so you can use any of its drawing methods. 
 This is a just simple conversion from Waveshare Micropython code to work with Circuitpython.
 
 More information about the ePaper module this works with:
@@ -15,7 +15,7 @@ This driver depends on:
 # Install 
 To use with Circuitpython Copy `epd_2in13_b.py` or `epd_2in13_b.mpy` into `lib` folder of `CIRCUITPY` drive. 
 
-Make sure you have also this library on your 'lib' directory:
+Make sure you have also this library on your `lib` directory:
 
 * adafruit_framebuf.mpy https://github.com/adafruit/Adafruit_CircuitPython_Bundle
 

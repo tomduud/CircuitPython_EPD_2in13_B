@@ -32,8 +32,6 @@ This is a Circuitpython version of Waveshare 2.13" epaper display lib for Raspbe
 
 
 
-# * Adafruit's Bus Device library: https://github.com/adafruit/Adafruit_CircuitPython_BusDevice
-
 
 """
 

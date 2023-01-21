@@ -8,18 +8,14 @@ More information about the ePaper module this works with:
 * Display module specification sheet https://www.waveshare.com/w/upload/d/d8/2.13inch_e-Paper_%28B%29_V3_Specification.pdf
 * Waveshare ePaper github pages https://github.com/waveshare/Pico_ePaper_Code
 
-
-
 # Dependencies
 This driver depends on:
 * Adafruit CircuitPython https://github.com/adafruit/circuitpython
 
-
-
 # Install 
 To use with Circuitpython Copy 'epd_2in13_b.py' or 'epd_2in13_b.mpy' into 'lib' folder of 'CIRCUITPY' drive. 
 
-Make sure you have also this library on your 'lib' directory
+Make sure you have also this library on your 'lib' directory:
 
 * adafruit_framebuf.mpy https://github.com/adafruit/Adafruit_CircuitPython_Bundle
 

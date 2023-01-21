@@ -1,5 +1,5 @@
-Introduction
-============
+* Introduction
+
 Circuitpython library to use Waveshare 2.13 inch ePaper display with Raspberry Pico W
 
 

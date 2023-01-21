@@ -9,7 +9,7 @@ More information about the ePaper module this works with:
 * Waveshare ePaper github pages https://github.com/waveshare/Pico_ePaper_Code
 
 # Dependencies
-This driver depends on:
+This library depends on:
 * Adafruit CircuitPython https://github.com/adafruit/circuitpython
 
 # Install 

@@ -17,7 +17,7 @@ This driver depends on:
 
 
 # Install 
-Copy epd_2in13_b.py or epd_2in13_b.mpy to Pico lib directory
+To use with Circuitpython Copy 'epd_2in13_b.py' or 'epd_2in13_b.mpy' into 'lib' folder of 'CIRCUITPY' drive. 
 
 # Usage Example
 

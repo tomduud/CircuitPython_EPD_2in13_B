@@ -14,7 +14,7 @@ Circuitpython library to use Waveshare 2.13 inch ePaper display with Raspberry P
 Implementation Notes
 --------------------
 
-This is micropython version of Waveshare 2.13" epaper display class for Raspberry Pi Pico based on Waveshare team's micropython class/example
+This is a Circuitpython version of Waveshare 2.13" epaper display lib for Raspberry Pi Pico based on Waveshare team's micropython class/example.
 
 
 **Hardware:**

@@ -13,7 +13,7 @@ This driver depends on:
 * Adafruit CircuitPython https://github.com/adafruit/circuitpython
 
 # Install 
-To use with Circuitpython Copy 'epd_2in13_b.py' or 'epd_2in13_b.mpy' into 'lib' folder of 'CIRCUITPY' drive. 
+To use with Circuitpython Copy `epd_2in13_b.py` or `epd_2in13_b.mpy` into `lib` folder of `CIRCUITPY` drive. 
 
 Make sure you have also this library on your 'lib' directory:
 

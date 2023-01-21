@@ -19,6 +19,13 @@ Make sure you have also this library on your `lib` directory:
 
 * adafruit_framebuf.mpy https://github.com/adafruit/Adafruit_CircuitPython_Bundle
 
+and
+
+* `font5x8.bin` in same directory as your code. You can download the font here :
+https://github.com/adafruit/Adafruit_CircuitPython_framebuf/blob/main/examples/font5x8.bin
+
+
+
 
 # Usage Example
 

@@ -19,7 +19,15 @@ This driver depends on:
 # Install 
 To use with Circuitpython Copy 'epd_2in13_b.py' or 'epd_2in13_b.mpy' into 'lib' folder of 'CIRCUITPY' drive. 
 
+Make sure you have also this library on your 'lib' directory
+
+* adafruit_framebuf.mpy https://github.com/adafruit/Adafruit_CircuitPython_Bundle
+
+
 # Usage Example
+
+This uses adafruit_framebuf framebuffer library. Please see more information about 'adafruit_framebuf' library drawing methods : 
+https://github.com/adafruit/Adafruit_CircuitPython_framebuf 
 
 ```python
 
